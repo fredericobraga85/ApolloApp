@@ -136,7 +136,7 @@ class MainActivity : MainView, AppCompatActivity() {
     }
 
     override fun hideProgess() {
-//        progressBar.visibility = View.INVISIBLE
+        progressBar.visibility = View.INVISIBLE
     }
 
 }
