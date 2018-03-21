@@ -1,0 +1,39 @@
+
+query FeedQuery {
+
+		feeds {
+		  name
+		  url
+		  isDefault
+          _id
+		}
+
+}
+
+query StorySimpleQuery {
+
+	stories {
+	  uuid
+	  title
+	  subtitle
+	  published
+	  image
+	  _id
+	  viewers
+	  url
+	}
+
+}
+
+query BlockQuery {
+
+	blocks {
+	  name
+	  header
+	  type
+	  order
+	  state
+	  _id
+	}
+
+}
